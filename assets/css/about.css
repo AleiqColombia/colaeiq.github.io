@@ -1,0 +1,67 @@
+/* === SOBRE EL COLAEIQ 2026 === */
+
+.hero-about {
+    background: linear-gradient(to bottom right, var(--blue), var(--gold));
+    color: white;
+    padding: 180px 20px 100px;
+    text-align: center;
+    background-image: url("../img/moodboard/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-about::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-about-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-about h1 {
+    font-size: 3em;
+    color: var(--gold);
+}
+
+.hero-about p {
+    font-family: "DancingScript", cursive;
+    font-size: 1.5em;
+}
+
+#about-section {
+    background: var(--cream);
+    padding: 80px 20px;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-text p {
+    color: var(--brown);
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+
+.about-text h2 {
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .hero-about h1 {
+        font-size: 2em;
+    }
+    .hero-about p {
+        font-size: 1.2em;
+    }
+}

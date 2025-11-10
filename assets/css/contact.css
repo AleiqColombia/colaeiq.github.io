@@ -1,0 +1,85 @@
+/* === CONTACTO COLAEIQ 2026 === */
+
+.hero-contact {
+    background: linear-gradient(to bottom right, var(--blue), var(--gold));
+    color: white;
+    padding: 180px 20px 100px;
+    text-align: center;
+    background-image: url("../img/moodboard/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-contact::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-contact-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-contact h1 {
+    font-size: 3em;
+    color: var(--gold);
+}
+
+.hero-contact p {
+    font-family: "DancingScript", cursive;
+    font-size: 1.5em;
+}
+
+#contact-section {
+    background: var(--cream);
+    padding: 80px 20px;
+}
+
+.contact-form {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid var(--blue);
+    font-size: 1em;
+    font-family: inherit;
+}
+
+.contact-form button {
+    margin-top: 15px; 
+}
+
+.contact-info {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: var(--brown);
+    font-size: 1em;
+    margin-bottom: 5px;
+}
