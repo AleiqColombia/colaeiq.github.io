@@ -7,105 +7,140 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COLAEIQ 2026 | Bogotá, Colombia</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Fuentes locales -->
     <style>
-        @font-face {
-            font-family: 'BricolageGrotesque';
-            src: url('assets/fonts/BricolageGrotesque/BricolageGrotesque-Regular.ttf') format('truetype');
-        }
-        @font-face {
-            font-family: 'MyriadBengali';
-            src: url('assets/fonts/MyriadBengali/MyriadBengali-Regular.ttf') format('truetype');
-        }
-        @font-face {
-            font-family: 'DancingScript';
-            src: url('assets/fonts/DancingScript/DancingScript-Regular.ttf') format('truetype');
-        }
+    @font-face {
+        font-family: "BricolageGrotesque";
+        src: url("assets/fonts/BricolageGrotesque-Regular.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "MyriadBengali";
+        src: url("assets/fonts/MyriadBengali-Regular.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "DancingScript";
+        src: url("assets/fonts/DancingScript-Regular.ttf") format("truetype");
+    }
     </style>
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <div class="container header-content">
-            <img src="assets/img/logos/logo_ig.png" alt="Logo COLAEIQ" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="active">Inicio</a></li>
-                    <li><a href="news.html">Noticias</a></li>
-                    <li><a href="gallery.html">Galería</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <header id="header">
+    <div class="container header-container">
+        <div class="logo">
+            <img src="assets/img/logos/logo_aleiq.jpg" alt="Logo COLAEIQ" />
+            <h1>COLAEIQ <span>2026</span></h1>
         </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="news.html">Noticias</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>XXXI COLAEIQ 2026</h1>
-            <p>Congreso Latinoamericano de Estudiantes de Ingeniería Química y Afines</p>
-            <p class="highlight">Bogotá, Colombia 🇨🇴 | Julio 13 al 18 de 2026</p>
-            <a href="about.html" class="btn-primary">Conoce más</a>
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>XXXI Congreso Latinoamericano</h2>
+            <h1>COLAEIQ <span>2026</span></h1>
+            <p>Bogotá, Colombia 🇨🇴 | Julio 13 al 18 de 2026</p>
+            <a href="#about" class="btn-primary">Conoce más</a>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about">
+    <!-- About -->
+    <section id="about">
         <div class="container">
-            <h2>Sobre el Congreso</h2>
+        <h2 class="section-title">Sobre el Congreso</h2>
             <p>
-                El COLAEIQ es el evento académico y cultural más importante que reúne a estudiantes de Ingeniería Química y carreras afines de toda Latinoamérica.
-                En su edición XXXI, será organizado por <strong>ALEIQ Colombia</strong> y se celebrará en la <strong>Universidad EAN</strong> en Bogotá.
+                El <strong>COLAEIQ</strong> es el evento académico y cultural más
+                importante que reúne a estudiantes de Ingeniería Química y carreras
+                afines de toda Latinoamérica. En su edición XXXI, será organizado por
+                <strong>ALEIQ Colombia</strong> y se celebrará en la
+                <strong>Universidad EAN</strong> en Bogotá.
             </p>
         </div>
     </section>
 
-    <!-- News Section -->
-    <section class="news">
+    <!-- News -->
+    <section id="news">
         <div class="container">
-            <h2>Noticias y Publicaciones</h2>
-            <div class="news-grid">
-                <div class="card">
-                    <h3>Lanzamiento oficial del COLAEIQ 2026</h3>
-                    <p>Conoce todos los detalles del evento más grande de estudiantes de Ingeniería Química de Latinoamérica.</p>
-                    <a href="news.html" class="btn-secondary">Leer más</a>
-                </div>
-                <div class="card">
-                    <h3>Convocatoria de voluntarios</h3>
-                    <p>¿Quieres hacer parte del equipo organizador? Pronto abriremos inscripciones para voluntarios.</p>
-                    <a href="news.html" class="btn-secondary">Leer más</a>
-                </div>
+            <h2 class="section-title">Noticias y Publicaciones</h2>
+        <div class="news-grid">
+            <article class="card">
+            <img src="assets/img/graphic_element/post1.jpg" alt="Lanzamiento COLAEIQ" />
+            <div class="card-content">
+                <h3>Lanzamiento oficial del COLAEIQ 2026</h3>
+                <p>
+                Conoce todos los detalles del evento más grande de estudiantes
+                de Ingeniería Química en Latinoamérica.
+                </p>
+                <a href="news.html" class="btn-secondary">Leer más</a>
             </div>
+            </article>
+
+            <article class="card">
+            <img src="assets/img/graphic_element/post2.jpg" alt="Convocatoria voluntarios" />
+            <div class="card-content">
+                <h3>Convocatoria de voluntarios</h3>
+                <p>
+                Sé parte del equipo organizador del COLAEIQ 2026. Pronto abriremos
+                inscripciones para voluntarios.
+                </p>
+                <a href="news.html" class="btn-secondary">Leer más</a>
+            </div>
+            </article>
+        </div>
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="gallery-preview">
+    <!-- Gallery -->
+    <section id="gallery">
         <div class="container">
-            <h2>Galería y Videos</h2>
-            <p>Revive los mejores momentos de ediciones anteriores del COLAEIQ.</p>
+            <h2 class="section-title">Galería y Videos</h2>
+            <p>Revive los mejores momentos de las ediciones anteriores del COLAEIQ.</p>
             <a href="gallery.html" class="btn-primary">Ver galería completa</a>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <p>© 2026 COLAEIQ | ALEIQ Colombia</p>
-            <div class="socials">
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">YouTube</a>
-            </div>
-        </div>
-    </footer>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <p>¿Tienes preguntas o propuestas? ¡Estamos listos para escucharte!</p>
 
-    <script src="assets/js/main.js"></script>
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Nombre" required />
+                <input type="email" placeholder="Correo electrónico" required />
+                <textarea placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container footer-container">
+      <p>© 2026 COLAEIQ | ALEIQ Colombia</p>
+      <div class="socials">
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">YouTube</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
