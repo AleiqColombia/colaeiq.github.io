@@ -87,7 +87,7 @@ document.querySelectorAll(".section-title, .card, .about-text p, .about-values l
    ========================================================== */
 
 (function() {
-  emailjs.init("1QZyy2MSv91lxTjMj"); // 🔹 Tu Public Key de EmailJS
+  emailjs.init("1QZyy2MSv91lxTjMj"); // 🔹 Public Key de EmailJS
 })();
 
 const contactForm = document.getElementById("contact-form");
