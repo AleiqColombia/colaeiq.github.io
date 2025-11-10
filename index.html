@@ -9,250 +9,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALEIQ Colombia</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <title>COLAEIQ 2026 | Bogotá, Colombia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Fuentes locales -->
+    <style>
+        @font-face {
+            font-family: 'BricolageGrotesque';
+            src: url('assets/fonts/BricolageGrotesque/BricolageGrotesque-Regular.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'MyriadBengali';
+            src: url('assets/fonts/MyriadBengali/MyriadBengali-Regular.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'DancingScript';
+            src: url('assets/fonts/DancingScript/DancingScript-Regular.ttf') format('truetype');
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Encabezado -->
+    <!-- Header -->
     <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="img/logo_aleiq.jpg" alt="Logo ALEIQ Colombia">
-                    <div>
-                        <h1>ALEIQ Colombia</h1>
-                        <p class="tagline">Asociación Latinoamericana de Estudiantes 
-                            de Ingeniería Química - Delegacion COLOMBIA</p>
-                    </div>
-                </div>
-            </div>
+        <div class="container header-content">
+            <img src="assets/img/logos/logo_aleiq.jpg" alt="Logo COLAEIQ" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="news.html">Noticias</a></li>
+                    <li><a href="gallery.html">Galería</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- Menú -->
-    <nav>
-        <div class="container">
-            <div class="navbar">
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">Inicio</a></li>
-                    <li><a href="#about">¿Quiénes somos?</a></li>
-                    <li><a href="#delegados">Delegados</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="colaeiq.html">COLAEIQ 2026</a></li>
-                    <li><a href="aleiq.html">ALEIQ</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-                <div class="nav-social">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-    </nav>
     <!-- Hero Section -->
     <section class="hero">
-        <img src="img/content_principal3.jpg" alt="Banner Principal ALEIQ COLOMBIA">
-        <div class="hero-content">
-            <h2>Asociación Latinoamericana de Estudiantes de Ingeniería Química – 
-        Delegación Colombia</h2>
-        </div>  
-    
-    </section>
-    <!-- Contenido principal y barra lateral -->
-    <div class="container">
-        <div class="main-content">
-            <!-- Contenido principal -->
-            <main class="content">
-                <h1>Bienvenido a ALEIQ COLOMBIA</h1>
-                <p>Bienvenido a ALEIQ Colombia, una sociedad dedicada a la 
-                    promoción y difusión de la ingeniería 
-                    química en Colombia y Latinoamérica.</p>
-
-                <div class="highlight">
-                    <p>“Conectar el conocimiento, la ciencia y las ideas para transformar el futuro
-                    de la Ingeniería Química en Colombia y Latinoamérica.”</p>
-                </div>
-                
-                <h2 id="about">¿Quiénes Somos?</h2>
-                <p>Somos la delegación colombiana de la ALEIQ, una organización que conecta, impulsa
-                    y representa a los estudiantes de Ingeniería Química en toda Latinoamérica. 
-                    Trabajamos para fortalecer la formación académica, técnica y humana de nuestros 
-                    miembros, promoviendo la investigación, la innovación y el desarrollo sostenible.</p>
-                
-                <h3>Nuestra Misión:</h3>
-                <ul>
-                    <li>Promover la colaboración entre delegaciones del ALEIQ.</li>
-                    <li>Fortalecer la investigación y la divulgación científica.</li>
-                    <li>Fomentar el liderazgo estudiantil y la innovación técnica.</li>
-                    <li>Representar a Colombia en el ámbito latinoamericano.</li>
-                </ul>
-                
-                <h2 id="delegados">Delegados Nacionales Gestión 2025 - 2026</h2>
-                <img src="img/delegacion.jpg" alt="Delegados Nacionales Gestión 2025 - 2026" class="content-image">
-                <p><strong>Juan David Parra Cantor</strong><br>Est. 
-                Ingeniería Química – UPB Medellín<br><em>Delegado Nacional</em></p>
-                <p><strong>Valeria Vegas Torres</strong><br>Est. 
-                Biotecnología – EIA<br><em>Delegada Nacional</em></p>
-
-                <h2 id="proyectos">Proyecto Digital</h2>
-                <p>💻 Actualmente estamos desarrollando el sitio web oficial de ALEIQ Colombia, 
-                    un espacio abierto y colaborativo que servirá para:</p>
-                <ul>
-                    <li>🧠 Difundir proyectos técnicos y académicos.</li>
-                    <li>📰 Publicar artículos, noticias y eventos.</li>
-                    <li>🔬 Compartir recursos educativos y herramientas digitales.</li>
-                    <li>🤝 Conectar a estudiantes y profesionales de Ingeniería Química.</li>
-                </ul>
-                
-                <div class="highlight">
-                    <p>🚧 Sitio web en construcción — próximamente disponible a través de GitHub Pages.</p>
-                </div>
-                
-                <h2 id="colaeiq">COLAEIQ 2026</h2>
-                
-                <h2 id="alianzas_col">Sociedades de Ingeniería Química en Colombia</h2>
-                <p>🤝 ALEIQ Colombia colabora con diversas sociedades de Ingeniería Química 
-                    en el país para fortalecer la red académica y profesional. 
-                    Algunas de nuestras alianzas incluyen:</p>
-                <ul>
-                    <li>🔹 Sociedad Colombiana de Ingenieros Químicos (SCIQ)</li>
-                    <li>🔹 Asociación Colombiana de Facultades de Ingeniería (ACOFI)</li>
-                    <li>🔹 Sociedad de Ingenieros Químicos UPB (SIQUPB)</li>
-                </ul>
-
-                <h2 id="Aleiq">Sobre ALEIQ</h2>
-                <p>La Asociación Latinoamericana de Estudiantes de Ingeniería Química (ALEIQ) 
-                    es una organización que busca conectar, impulsar y representar a 
-                    los estudiantes de Ingeniería Química en toda Latinoamérica. 
-                    A través de la colaboración y el intercambio de conocimientos, 
-                    ALEIQ promueve el desarrollo académico y profesional de sus miembros.</p>
-
-                <h2 id="contacto">Contáctanos</h2>
-                <p>¿Tienes preguntas o quieres ser parte de ALEIQ Colombia?</p>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Nombre</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Correo Electrónico</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Asunto</label>
-                        <select id="subject" name="subject">
-                            <option value="general">Consulta General</option>
-                            <option value="projects">Información sobre Proyectos</option>
-                            <option value="collaboration">Propuesta de Colaboración</option>
-                            <option value="media">Solicitud de Prensa</option>
-                            <option value="subscribe">Ser miembro de ALEIQ Colombia</option>
-                            <option value="other">Otro</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Mensaje</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
-            </main>
-            <!-- Barra lateral -->
-            <aside class="sidebar">
-                <div class="sidebar-item">
-                    <h3>Noticias Recientes</h3>
-                    <div class="news-item">
-                        <h4>🌍 China inaugura el mayor parque eólico marino</h4>
-                        <p>China inaugura el mayor parque eólico marino del mundo en 2025, con capacidad para abastecer a más de 3 millones de hogares.</p>
-                    </div>
-                    <div class="news-item">
-                        <h4>🇪🇸 España proyecta su primer parque eólico marino</h4>
-                        <p>España proyecta su primer parque eólico marino en el Mediterráneo, apostando por la transición energética.</p>
-                    </div>
-                    <div class="news-item">
-                        <h4>🌊 Reducción de emisiones en Europa</h4>
-                        <p>La energía eólica marina reducirá en un 30% las emisiones de CO₂ en Europa para el 2030.</p>
-                    </div>
-                </div>
-                
-                <div class="sidebar-item">
-                    <h3>Últimos Artículos</h3>
-                    <ul>
-                        <li><a href="#que-son">¿Qué son los aerogeneradores marinos?</a></li>
-                        <li><a href="#beneficios">Beneficios de la energía eólica marina</a></li>
-                        <li><a href="#impacto-ambiental">Impacto ambiental de los parques eólicos marinos: retos y soluciones</a></li>
-                        <li><a href="#retos-y-futuro">5 razones por las que la energía eólica marina es clave para el futuro</a></li>
-                    </ul>
-                </div>
-                
-                <div class="sidebar-item">
-                    <h3>Categorías</h3>
-                    <ul>
-                        <li><a href="#que-son">⚙ Innovación: Nuevos materiales, turbinas flotantes, avances en tecnología de cableado submarino</a></li>
-                        <li><a href="#beneficios">♻ Energía renovable: Comparación de la energía eólica marina con solar, geotérmica e hidroeléctrica</a></li>
-                        <li><a href="#impacto-ambiental">🌱 Impacto ambiental: Beneficios ambientales y medidas de mitigación de los efectos en ecosistemas marinos</a></li>
-                    </ul>
-                </div>
-            </aside>
+        <div class="hero-text">
+            <h1>XXXI COLAEIQ 2026</h1>
+            <p>Congreso Latinoamericano de Estudiantes de Ingeniería Química y Afines</p>
+            <p class="highlight">Bogotá, Colombia 🇨🇴 | Julio 13 al 18 de 2026</p>
+            <a href="about.html" class="btn-primary">Conoce más</a>
         </div>
-    </div>
-    <!-- Pie de página -->
-    <footer>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Información de Contacto</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> Colombia</li>
-                        <li><i class="fas fa-phone"></i> +57 3207096148</li>
-                        <li><i class="fas fa-envelope"></i> colombia.aleiq@gmail.com</li>
-                    </ul>
+            <h2>Sobre el Congreso</h2>
+            <p>
+                El COLAEIQ es el evento académico y cultural más importante que reúne a estudiantes de Ingeniería Química y carreras afines de toda Latinoamérica.
+                En su edición XXXI, será organizado por <strong>ALEIQ Colombia</strong> y se celebrará en la <strong>Universidad EAN</strong> en Bogotá.
+            </p>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="container">
+            <h2>Noticias y Publicaciones</h2>
+            <div class="news-grid">
+                <div class="card">
+                    <h3>Lanzamiento oficial del COLAEIQ 2026</h3>
+                    <p>Conoce todos los detalles del evento más grande de estudiantes de Ingeniería Química de Latinoamérica.</p>
+                    <a href="news.html" class="btn-secondary">Leer más</a>
                 </div>
-                
-                <div class="footer-section">
-                    <h3>Navegación</h3>
-                    <ul>
-                        <li><a href="index.html" class="active">Inicio</a></li>
-                        <li><a href="#about">¿Quiénes somos?</a></li>
-                        <li><a href="#delegados">Delegados</a></li>
-                        <li><a href="#proyectos">Proyectos</a></li>
-                        <li><a href="#noticias">Noticias</a></li>
-                        <li><a href="colaeiq.html">COLAEIQ 2026</a></li>
-                        <li><a href="aleiq.html">ALEIQ</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Enlaces Legales</h3>
-                    <ul>
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="#">Aviso legal</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
-                        <li><a href="#">Política de cookies</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Síguenos</h3>
-                    <p>Mantente informado sobre nuestras iniciativas</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                <div class="card">
+                    <h3>Convocatoria de voluntarios</h3>
+                    <p>¿Quieres hacer parte del equipo organizador? Pronto abriremos inscripciones para voluntarios.</p>
+                    <a href="news.html" class="btn-secondary">Leer más</a>
                 </div>
             </div>
-            
-            <div class="copyright">
-                <p>&copy; 2025 ALEIQ COLOMBIA. Hecho con ❤️ por estudiantes de Ingeniería Química. 
-                    Todos los derechos reservados.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-preview">
+        <div class="container">
+            <h2>Galería y Videos</h2>
+            <p>Revive los mejores momentos de ediciones anteriores del COLAEIQ.</p>
+            <a href="gallery.html" class="btn-primary">Ver galería completa</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 COLAEIQ | ALEIQ Colombia</p>
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
