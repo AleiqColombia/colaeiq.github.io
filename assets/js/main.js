@@ -81,3 +81,36 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll(".section-title, .card, .about-text p, .about-values li").forEach(el => {
     observer.observe(el);
 });
+
+/* ==========================================================
+    FORMULARIO DE CONTACTO - Envío con EmailJS
+   ========================================================== */
+
+(function() {
+  emailjs.init("1QZyy2MSv91lxTjMj"); // 🔹 Tu Public Key de EmailJS
+})();
+
+const contactForm = document.getElementById("contact-form");
+const statusMsg = document.getElementById("form-status");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+
+    statusMsg.textContent = "⏳ Enviando mensaje...";
+    statusMsg.style.color = "#003087";
+
+    emailjs.sendForm("service_colaeiq", "template_contacto", this)
+        .then(() => {
+            statusMsg.textContent = "✅ ¡Mensaje enviado correctamente! Pronto te contactaremos.";
+            statusMsg.style.color = "#43C85E";
+            contactForm.reset();
+        })
+        .catch((err) => {
+            console.error("Error al enviar:", err);
+            statusMsg.textContent = "❌ Ocurrió un error al enviar el mensaje. Intenta nuevamente.";
+            statusMsg.style.color = "#DE0624";
+        });
+    });
+}
+
